@@ -15,22 +15,23 @@ nav ul li{
     display: inline;
 }
 .body{
-    background-color: aliceblue;
-    width: 80%;
-    height: fit-content;
+    background-color: rgb(47, 107, 160);
+    width: auto;
+    height: auto;
     color: black;
 }
 .main{
     background-color: burlywood;
-    width: 70%;
-    height: fit-content;
+    width: 50%;
+    height: 600px;
     padding: 20px;
     margin: 20px;
+    float: left;
 
 
 }
 h1{
-    background-color: rgb(0, 255, 179);
+    color: azure;
     width:70% ;
     margin: 20px;
     padding: 20px;
@@ -46,5 +47,10 @@ nav ul li a:hover{
 .column{
     float:left;
     width: 30%;
+    padding: auto;
+}
+.aside{
+    height: fit-content;
+    float: right;
     padding: auto;
 }
